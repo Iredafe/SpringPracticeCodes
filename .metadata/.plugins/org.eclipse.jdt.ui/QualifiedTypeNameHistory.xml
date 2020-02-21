@@ -25,4 +25,6 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.test.dao.ApplicationDao"/>
 <fullyQualifiedTypeName name="com.test.beans.User"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
