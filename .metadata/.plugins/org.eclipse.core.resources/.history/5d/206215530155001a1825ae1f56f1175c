@@ -1,0 +1,34 @@
+package com.dafe.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TennisCoach implements Coach {
+
+	private FortuneService fortuneService;
+	
+	public TennisCoach() {
+		
+		System.out.println(">> inside the default constructor");
+	}
+	/*
+	@Autowired
+	public TennisCoach(Fortune theFortuneService){
+	
+	fortuneService = theFortuneService;
+	}
+	*/
+	
+	@Override
+	public String getDailyWorkOut() {
+return "practice your backhand volley";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		
+		return fortuneService.getFortune();
+	}
+
+}
