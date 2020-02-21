@@ -1,0 +1,11 @@
+package com.dafe.springdemo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public void getDailyWorkOut() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
