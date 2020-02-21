@@ -1,0 +1,41 @@
+package com.dafe.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanLifeCycleDemoApp {
+
+	public static void main(String[] args) {
+		// load the spring configuration file
+		
+	ClassPathXmlApplicationContext context = 
+			new ClassPathXmlApplicationContext("beanLifeCycle-applicationContext.xml");
+	
+		//retrieve bean from container
+	
+	Coach theCoach = context.getBean("myCoach", Coach.class);
+
+	Coach alphaCoach = context.getBean("myCoach", Coach.class);
+
+	//check if they are the same
+	
+	boolean result = (theCoach == alphaCoach);
+	
+	//print results
+	
+	System.out.println("\n Pointing to the same object: " + result);
+	
+
+	System.out.println("\n Memory location of theCoach" + theCoach);
+
+
+	System.out.println("\n Memory location of alphaCoach" + alphaCoach);
+	
+	
+	//close the context
+	context.close();
+	
+	
+
+	}
+
+}

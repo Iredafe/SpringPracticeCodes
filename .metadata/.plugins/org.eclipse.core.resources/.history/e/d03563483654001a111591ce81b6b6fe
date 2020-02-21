@@ -1,0 +1,10 @@
+package com.dafe.springdemo;
+
+public class BeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		// load the spring configuration file
+
+	}
+
+}
