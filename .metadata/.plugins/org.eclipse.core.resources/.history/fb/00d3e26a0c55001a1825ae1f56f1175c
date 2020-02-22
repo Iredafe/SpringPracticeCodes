@@ -1,0 +1,5 @@
+package com.dafe.springdemo;
+
+public class AnnotationBeanScopesDemo {
+
+}
