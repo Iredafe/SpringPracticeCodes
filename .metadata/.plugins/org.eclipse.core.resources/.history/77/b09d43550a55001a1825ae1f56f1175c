@@ -1,0 +1,22 @@
+package com.dafe.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+
+	//create an array of strings
+	private String [] data =
+		{
+				"Learn to say the truth",
+				"Beware of wolves in sheep's clothing",
+				"flee fornication"
+		}
+	
+	@Override
+	public String getFortune() {
+		// pick a random string from the array
+		return null;
+	}
+
+}
