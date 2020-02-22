@@ -1,0 +1,9 @@
+package com.dafe.springdemo;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.dafe.springdemo")
+public class SportConfig {
+
+}
