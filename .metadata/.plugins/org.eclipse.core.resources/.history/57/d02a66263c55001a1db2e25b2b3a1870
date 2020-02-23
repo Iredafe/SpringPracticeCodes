@@ -1,0 +1,19 @@
+package com.dafe.springdemo;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.dafe.springdemo")
+public class SportConfig {
+
+	
+	//define bean for sad fortune service
+	
+	
+	
+	
+	//define bean for swim coach and inject dependencies
+	
+	
+}

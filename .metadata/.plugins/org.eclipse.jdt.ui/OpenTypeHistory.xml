@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=spring-demo-annotations/src&lt;com.dafe.springdemo{Coach.java[Coach" modifiers="513" timestamp="1582326792892"/>
 <typeInfo handle="=spring-demo-annotations/lib\/spring-web-5.2.3.RELEASE.jar&lt;org.springframework.http.codec.multipart(FormFieldPart.class[FormFieldPart" modifiers="1537" timestamp="1581060900002"/>
 <typeInfo handle="=spring-demo-annotations/src&lt;com.dafe.springdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1582324250098"/>
+<typeInfo handle="=spring-demo-annotations/src&lt;com.dafe.springdemo{Coach.java[Coach" modifiers="513" timestamp="1582326792892"/>
 </typeInfoHistroy>
