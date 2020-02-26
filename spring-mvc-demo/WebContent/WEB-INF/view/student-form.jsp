@@ -39,6 +39,17 @@ Ruby <form:radiobutton path="favoriteLanguage" value = "Ruby" />
 
 <br><br>
 
+<br><br>
+
+Operating System: 
+
+Linux <form:checkbox path="operatingSystem" value = "Linux" />
+Windows <form:checkbox path="operatingSystem" value = "MS Windows" />
+Macintosh <form:checkbox path="operatingSystem" value = "Mac OS" />
+
+<br><br>
+<br><br>
+
 <input type="submit" value="Submit">
 
 </form:form> 
