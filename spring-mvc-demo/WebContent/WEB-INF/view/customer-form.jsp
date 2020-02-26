@@ -6,7 +6,7 @@
 </head>
 
 <style>
-.error{color:red}
+.error {color:red}
 </style>
 
 <body>

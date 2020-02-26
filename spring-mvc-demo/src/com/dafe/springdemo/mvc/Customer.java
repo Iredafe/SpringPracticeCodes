@@ -6,7 +6,10 @@ import javax.validation.constraints.Size;
 public class Customer {
 
 	private String firstName;
-	private String lastName;
+	
+	@NotNull(message="is Required")
+	@Size(min=1)
+		private String lastName;
 	
 	public String getFirstName() {
 		return firstName;
@@ -15,8 +18,6 @@ public class Customer {
 		this.firstName = firstName;
 	}
 	
-	@NotNull(message="is Required")
-	@Size(min=1)
 	public String getLastName() {
 		return lastName;
 	}

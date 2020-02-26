@@ -15,6 +15,9 @@ Spring MVC Demo - Home Page
 
 <br><br>
 
+<a href="customer/showForm"> Customer Form</a>
+
+<br><br>
 
 </body>
 </html>
