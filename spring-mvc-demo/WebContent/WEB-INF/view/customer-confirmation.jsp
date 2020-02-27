@@ -19,7 +19,9 @@ Free Passes: ${customer.freePasses}
 
 Postal Code : ${customer.postalCode}
 
+<br><br>
 
+Postal Code : ${customer.courseCode}
 
 </body>
 
