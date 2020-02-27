@@ -19,20 +19,16 @@ public class CustomerController {
 
 	//add @initbinder ... to convert trim to input strings
 	
+	//remove leading and trailing whitespaces
+	
+	//resolve issue for our validation
+	
 	@InitBinder
 	public void initBinder(WebDataBinder dataBinder) {
 		StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
 	
 	dataBinder.registerCustomEditor (String.class, stringTrimmerEditor);
 	}
-	
-	//remove leading and trailing whitespaces
-	
-	
-	
-	//resolve issue for our validation
-	
-	
 	
 	@RequestMapping("/showForm")
 	public String showForm(Model theModel) {
@@ -50,6 +46,13 @@ public class CustomerController {
 		BindingResult theBindingResult) {
 		
 		System.out.println("Last Name: |" + theCustomer.getLastName() + "|");
+
+		System.out.println("Binding Result: |" + theBindingResult);
+		
+
+		System.out.println("\n\n\n\n");
+
+		
 		if(theBindingResult.hasErrors()) {
 		return "customer-form";
 		} 
