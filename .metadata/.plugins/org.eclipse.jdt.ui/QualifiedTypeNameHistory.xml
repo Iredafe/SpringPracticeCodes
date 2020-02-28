@@ -20,8 +20,6 @@
 <fullyQualifiedTypeName name="javax.servlet.Filter"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="com.test.dao.DBConnection"/>
-<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.test.dao.ApplicationDao"/>
 <fullyQualifiedTypeName name="com.test.beans.User"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
@@ -57,4 +55,9 @@
 <fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="javax.validation.Payload"/>
+<fullyQualifiedTypeName name="javax.validation.ConstraintValidator"/>
+<fullyQualifiedTypeName name="com.dafe.springdemo.mvc.validation.CourseCode"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
