@@ -24,9 +24,20 @@ public class CreateDemo {
 	Session session = factory.getCurrentSession();
 	
 	try {
+		//create the objects
+		Instructor tempInstructor = new Instructor("okowa","Grace", "kelly@dafe.com");
+		
+		InstructorDetail tempInstructorDetail =
+				new InstructorDetail("http://www.dafe.com/youtube","Proud Father");
+		
+		//associate the objects
+		
+		
 		
 		//start a transaction
 		session.beginTransaction();
+		
+		//save transaction
 		
 		//commit transaction
 		session.getTransaction().commit();
