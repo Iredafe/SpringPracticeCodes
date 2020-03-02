@@ -31,12 +31,26 @@ public class DeleteDemo {
 		
 		
 		//get the instructor by their primary key/id
+		int theId = 1;  
+		
+		Instructor tempInstructor = session.get(Instructor.class, theId);
+		
+		System.out.println("Found Instructor : " + tempInstructor);
 		
 		
 		
 
 		//delete that instructor
+		if(tempInstructor != null) {
+			
+			System.out.println("Deleting Instructor :" + tempInstructor);
+			
+			//Note: this will also delete associated instructor detail 
+			//because the cascadeType was set to ALL
+			
 		
+			session.delete(tempInstructor);
+		}
 		
 		
 		//commit transaction
