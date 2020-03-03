@@ -30,7 +30,7 @@ public class GetInstructorDetailDemo {
 		session.beginTransaction();
 		//get the instructor detail object
 	
-		int theId = 2;
+		int theId = 3;
 		InstructorDetail tempInstructorDetail=		
 					session.get(InstructorDetail.class, theId);
 		
@@ -41,13 +41,24 @@ public class GetInstructorDetailDemo {
 		
 		//print the associated instructor
 		System.out.println("the Associated Instructor :" + tempInstructorDetail.getInstructor());
+	
+		//delete the instructor detail
+		
+		System.out.println("Deleting tempInstructorDetail :" 
+											+ tempInstructorDetail);
+		session.delete(tempInstructorDetail);
+		
 		
 		//commit transaction
 		session.getTransaction().commit();
 		System.out.println("Done!!");
+	}
+		catch(Exception e) {
+			e.printStackTrace();
 		
 	}finally{
-		
+		//handle leak issues
+		session.close();
 		factory.close();
 	}
 	

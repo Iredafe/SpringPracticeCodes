@@ -28,7 +28,9 @@ public class InstructorDetail {
 //add a new field for instructor
 	//add @one to one annotation
 	
-	@OneToOne(mappedBy="instructorDetail", cascade=CascadeType.ALL)
+	@OneToOne(mappedBy="instructorDetail", 
+			cascade= {CascadeType.DETACH, CascadeType.MERGE,
+					CascadeType.PERSIST, CascadeType.REFRESH})
 	private Instructor Instructor;
 	
 	

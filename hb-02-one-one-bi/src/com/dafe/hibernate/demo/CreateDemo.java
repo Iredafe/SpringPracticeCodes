@@ -25,7 +25,7 @@ public class CreateDemo {
 	
 	try {
 		//create the objects
-		Instructor tempInstructor = new Instructor("Mike","Bangwell", "mikeb@dafe.com");
+		Instructor tempInstructor = new Instructor("Chris","John", "mikeb@dafe.com");
 		
 		InstructorDetail tempInstructorDetail =
 				new InstructorDetail("http://www.youtube.com/mike","I love to play golf");
