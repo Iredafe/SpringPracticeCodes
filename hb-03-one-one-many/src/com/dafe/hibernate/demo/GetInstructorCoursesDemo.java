@@ -7,9 +7,8 @@ import org.hibernate.cfg.Configuration;
 import com.dafe.hibernate.demo.entity.Course;
 import com.dafe.hibernate.demo.entity.Instructor;
 import com.dafe.hibernate.demo.entity.InstructorDetail;
-import com.dafe.hibernate.demo.entity.Student;
 
-public class CreateInstructorDemo {
+public class GetInstructorCoursesDemo {
 
 	public static void main(String[] args) {
 
@@ -26,27 +25,22 @@ public class CreateInstructorDemo {
 	Session session = factory.getCurrentSession();
 	
 	try {
-		//create the objects
-		Instructor tempInstructor = new Instructor("Poluj","Ogbe", "auduogbe@dafe.com");
-		
-		InstructorDetail tempInstructorDetail =
-				new InstructorDetail("http://www.youtube.com/audu","singing");
-		
-		//associate the objects0
-		tempInstructor.setInstructorDetail(tempInstructorDetail);
 		
 		
 		//start a transaction
 		session.beginTransaction();
 		
-		//save transaction
-		//
-		//NOTE: This will also save the details object 
-		//because of Cascadee.ALL
-		//	
-		System.out.println("Saving instructor : " + tempInstructor);
-		session.save(tempInstructor);
+		//get the instructor from db
 		
+		int theId = 10;
+		Instructor tempInstructor = session.get(Instructor.class, theId);
+		
+System.out.println("Instructor :" + tempInstructor );
+		
+		
+		//get instructor course
+		
+System.out.println("getting courses: " + tempInstructor.getCourses());
 		
 		//commit transaction
 		session.getTransaction().commit();
