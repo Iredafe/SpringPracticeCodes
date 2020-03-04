@@ -1,14 +1,16 @@
 package com.dafe.hibernate.demo;
 
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query;
 
 import com.dafe.hibernate.demo.entity.Course;
 import com.dafe.hibernate.demo.entity.Instructor;
 import com.dafe.hibernate.demo.entity.InstructorDetail;
 
-public class EagerLazyDemo {
+public class FetchJoinDemo {
 
 	public static void main(String[] args) {
 
@@ -19,7 +21,7 @@ public class EagerLazyDemo {
 				addAnnotatedClass(InstructorDetail.class).
 				addAnnotatedClass(Course.class).
 				buildSessionFactory();
-		 
+		
 		//create session
 
 	Session session = factory.getCurrentSession();
@@ -32,19 +34,36 @@ public class EagerLazyDemo {
 		
 		//get the instructor from db
 		
-		int theId = 10;
-		Instructor tempInstructor = session.get(Instructor.class, theId);
+		int theId = 1;
 		
-System.out.println("dafe's code : Instructor :" + tempInstructor );
+		Query <Instructor>  query = 
+				session.createQuery("select i from Instructor i " 
+						+ "JOIN FETCH i.courses " 
+							+ "where i.id =:theInstructorId",
+						Instructor.class);
 		
+		//set parameter on query
+		
+		query.setParameter("theInstructorId", theId);
+		
+		//execute query and get instructor
+		Instructor tempInstructor= query.getSingleResult();
+		
+		System.out.println("dafe's code : Instructor :" + tempInstructor );
+		 
+		//commit transaction
+		session.getTransaction().commit();
+		
+		//close session 
+		
+		session.close();
+		System.out.println("the session is now closed");
 		
 		//get instructor course
 		
-System.out.println("dafe's code : getting courses: " + tempInstructor.getCourses());
-		
-		//commit transaction
-		session.getTransaction().commit();
-		System.out.println("dafe's code : Done!!");
+				System.out.println("dafe's code : getting courses: " + tempInstructor.getCourses());
+				System.out.println("dafe's code : Done!!");
+						
 		
 	}finally{
 		

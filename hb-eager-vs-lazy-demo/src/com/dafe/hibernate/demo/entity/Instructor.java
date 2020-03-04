@@ -40,7 +40,6 @@ public class Instructor {
 
 	@OneToMany(fetch=FetchType.EAGER, mappedBy="instructor", cascade = {CascadeType.DETACH,
 			CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
-	
 	List <Course> courses;
 	
 	
