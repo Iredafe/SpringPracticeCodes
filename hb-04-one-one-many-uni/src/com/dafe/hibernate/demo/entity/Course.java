@@ -84,9 +84,9 @@ public class Course {
 		
 		if(reviews==null) {
 			reviews = new ArrayList<>();
-		
-			reviews.add(theReview);
 		}
+			reviews.add(theReview);
+		
 	}
 	//generate constructor
 	
