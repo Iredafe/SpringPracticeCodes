@@ -36,17 +36,31 @@ public class AddCourseAndStudentsDemo {
 		
 		//get the student John from the db
 int studentId = 1;		
-		//create more courses
 Student tempStudent = session.get(Student.class, studentId);		
 
 System.out.println("\nLoaded students...!!" + tempStudent);
 System.out.println("\nCourses" + tempStudent.getCourses() );
 
-//add more students
-		
-		//save the students
-//		System.out.println("\nSaving the students...!!");
-	//	System.out.println("Saved the students successfully!!" +tempCourse.getStudents());
+//create more courses
+Course tempCourse1 = new Course ("Dafe's Programming guide");
+Course tempCourse2 = new Course ("Precious Secrets for Hackers");
+
+
+
+//add student to courses
+
+tempCourse1.addStudent(tempStudent);
+tempCourse2.addStudent(tempStudent);
+
+		//	save the students
+	
+System.out.println("\nSaving the course...!!");
+
+	session.save(tempCourse1);
+	session.save(tempCourse2);
+
+
+//		//	System.out.println("Saved the students successfully!!" +tempCourse.getStudents());
 
 		
 		//add new students
