@@ -50,7 +50,7 @@
 		private List<Review> reviews;
 			
 		
-		private List <Student> students;
+		private List <Student>  students;
 		
 		public Course() {
 			
@@ -92,8 +92,18 @@
 			this.reviews = reviews;
 		}
 
-		// add a convenience method
 		
+		public List<Student> getStudents() {
+			return students;
+		}
+
+		public void setStudents(List<Student> students) {
+			this.students = students;
+		}
+
+
+		// add a convenience method
+
 		public void addReview(Review theReview) {
 		
 			if (reviews == null) {
@@ -101,6 +111,16 @@
 			}
 			
 			reviews.add(theReview);
+		}
+
+		
+		public void addStudent(Student theStudent) {
+			
+			if(students == null) {
+			students = new ArrayList<>();
+			
+			}
+			students.add(theStudent);
 		}
 		
 		@Override
