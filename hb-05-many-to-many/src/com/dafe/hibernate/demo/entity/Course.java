@@ -54,7 +54,7 @@ import javax.persistence.Table;
 		@ManyToMany(fetch=FetchType.LAZY, cascade= {CascadeType.PERSIST, CascadeType.MERGE,
 				 CascadeType.DETACH, CascadeType.REFRESH})	
 		@JoinTable(
-				name="course_id",
+				name="course_student",
 				joinColumns=@JoinColumn(name="course_id"),
 				inverseJoinColumns=@JoinColumn(name="student_id")
 				)
