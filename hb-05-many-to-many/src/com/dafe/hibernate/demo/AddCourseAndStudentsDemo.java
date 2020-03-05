@@ -34,35 +34,19 @@ public class AddCourseAndStudentsDemo {
 		//start a transaction
 		session.beginTransaction();
 		
-		//create a course
-		
-		Course tempCourse = new Course("Driving For Dummies");
-		
-				
-		//save the course and leverage the cascade all
-		System.out.println("Saving the course!!");
+		//get the student John from the db
+int studentId = 1;		
+		//create more courses
+Student tempStudent = session.get(Student.class, studentId);		
 
-		session.save(tempCourse);
+System.out.println("\nLoaded students...!!" + tempStudent);
+System.out.println("\nCourses" + tempStudent.getCourses() );
 
-		System.out.println("Saved the course successfully!!" +tempCourse);
-
-
-		
-
-		//create new students
-		Student tempStudent1 = new Student("John", "Doe", "john@dafe.com");
-		Student tempStudent2 = new Student("Frank", "Lampard", "frank@chelsea.com");
-		
-		//add the students to the course
-		tempCourse.addStudent(tempStudent1);
-		tempCourse.addStudent(tempStudent2);
+//add more students
 		
 		//save the students
-		System.out.println("\nSaving the students...!!");
-
-		session.save(tempStudent1);
-		session.save(tempStudent2);
-		System.out.println("Saved the students successfully!!" +tempCourse.getStudents());
+//		System.out.println("\nSaving the students...!!");
+	//	System.out.println("Saved the students successfully!!" +tempCourse.getStudents());
 
 		
 		//add new students
