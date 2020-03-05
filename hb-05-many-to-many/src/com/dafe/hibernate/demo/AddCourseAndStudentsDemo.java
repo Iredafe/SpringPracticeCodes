@@ -10,7 +10,7 @@ import com.dafe.hibernate.demo.entity.InstructorDetail;
 import com.dafe.hibernate.demo.entity.Review;
 import com.dafe.hibernate.demo.entity.Student;
 
-public class CreateCourseAndStudentsDemo {
+public class AddCourseAndStudentsDemo {
 
 	public static void main(String[] args) {
 
