@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="org.springframework.beans.propertyeditors.StringTrimmerEditor"/>
@@ -54,10 +53,11 @@
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="com.dafe.springdemo.dao.CustomerDao"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
+<fullyQualifiedTypeName name="com.dafe.springdemo.dao.CustomerDao"/>
 </qualifiedTypeNameHistroy>
