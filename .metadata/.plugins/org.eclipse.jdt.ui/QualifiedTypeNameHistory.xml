@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="com.test.dao.DBConnection"/>
 <fullyQualifiedTypeName name="com.test.dao.ApplicationDao"/>
 <fullyQualifiedTypeName name="com.test.beans.User"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="com.dafe.springdemo.dao.CustomerDao"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="com.dafe.aopdemo.dao.AccountDao"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 </qualifiedTypeNameHistroy>
