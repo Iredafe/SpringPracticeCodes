@@ -5,6 +5,8 @@ C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \myapp\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2492300260.index
 \customer-monitor\src
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1284649417.index
+\customer-monitor-aop\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\807241636.index
 \myapp\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3329483910.index
@@ -13,7 +15,11 @@ C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \spring-mvc-demo\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1893383122.index
 \customer-monitor\src
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\715998994.index
+\mycoolwebapp\src\main\java
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\53755057.index
 \myapp\src
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1408728832.index
+\customer-monitor-aop\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1147502270.index
 \SampleProject\src
