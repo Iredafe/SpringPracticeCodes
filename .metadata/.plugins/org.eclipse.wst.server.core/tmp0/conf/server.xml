@@ -97,9 +97,9 @@
 				<Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SampleProject" path="/SampleProject" reloadable="true" source="org.eclipse.jst.jee.server:SampleProject"/>
 				<Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\HPlusSample" path="/HPlusSample" reloadable="true" source="org.eclipse.jst.jee.server:HPlusSample"/>
 				<Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring-mvc-demo" path="/spring-mvc-demo" reloadable="true" source="org.eclipse.jst.jee.server:spring-mvc-demo"/>
-				<Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\customer-monitor" path="/customer-monitor" reloadable="true" source="org.eclipse.jst.jee.server:customer-monitor"/>
+				
 
-			<Context docBase="C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mycoolwebapp" path="/mycoolwebapp" reloadable="true" source="org.eclipse.jst.j2ee.server:mycoolwebapp"/></Host>
+			</Host>
 		</Engine>
 	</Service>
 </Server>

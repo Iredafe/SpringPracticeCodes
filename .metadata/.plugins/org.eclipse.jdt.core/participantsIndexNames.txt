@@ -17,9 +17,15 @@ C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \customer-monitor\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\715998994.index
 \mycoolwebapp\src\main\java
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3862151852.index
+\spring-security-demo-01-base-app\src\test\java
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\756917575.index
+\spring-security-demo-02-base-app2\src\test\java
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\53755057.index
 \myapp\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1408728832.index
 \customer-monitor-aop\src
 C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1147502270.index
 \SampleProject\src
+C:\Users\Iredafe\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1321530066.index
+\spring-security-demo\src\test\java
